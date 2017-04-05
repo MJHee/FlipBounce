@@ -1,0 +1,49 @@
+//
+//  PrefixHeader.pch
+//  FlipBounced
+//
+//  Created by MJHee on 2017/4/1.
+//  Copyright © 2017年 MJBaby. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import "NSString+MJHeeTextSize.h"
+#import "NSString+AttributedString.h"
+#import "Masonry.h"
+
+
+#define WIDTH 250
+#define ImgHeight 85
+#define SPACE  kScreenH * 50/667
+#define TITLEFONT 30*kScreenH/667
+#define VERSIONFONT 10*kScreenH/667
+#define WIDTHSPACE kScreenW * 15/375
+
+//判断设备
+ #define DT_IS_IPHONE4  (kScreenH <= 480)
+#define DT_IS_IPHONE5  (kScreenH == 568)
+#define DT_IS_IPHONE6  (kScreenH == 667)
+#define DT_IS_IPHONE6P (kScreenH == 736)
+
+#define WeakSelf __weak typeof(self) weakSelf = self
+#define StrongSelf __strong __typeof(self) strongSelf = weakSelf
+
+#define WindowView      [[UIApplication sharedApplication] keyWindow]
+
+#define kScreenW [UIScreen mainScreen].bounds.size.width
+#define kScreenH [UIScreen mainScreen].bounds.size.height
+
+#define UIColorFromRGBA(rgbValue, alphaValue) \
+    [UIColor \
+colorWithRed: ((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green: ((float)((rgbValue & 0x00FF00) >> 8))/255.0 \
+blue: ((float)(rgbValue & 0x0000FF))/255.0 \
+alpha: alphaValue]
+#define UIColorFromRGB(rgbValue) UIColorFromRGBA(rgbValue, 1.0)
+
+
+
+#endif /* PrefixHeader_pch */
