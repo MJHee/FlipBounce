@@ -369,11 +369,11 @@
 
 - (void)foregroundDetermineClick
 {
-//    [self keyboardHide];
-//    if (self.foregroundDetermineClickBlock) {
-//        self.foregroundDetermineClickBlock();
-//    }
-//    [self removeView];
+    [self keyboardHide];
+    if (self.foregroundDetermineClickBlock) {
+        self.foregroundDetermineClickBlock();
+    }
+    [self removeView];
     
     
     NSLog(@"selectSubject.title = %@, score = %@, province = %@", self.selectSubject.titleLabel.text, self.scoreLabel.text, self.provinceLabel.text);
