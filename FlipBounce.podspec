@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FlipBounce'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of FlipBounce.'
+  s.version          = '1.0.0'
+  s.summary          = 'Flip A Bounced.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                        Flip A Bounced Flip A Bounced Flip A Bounced
                        DESC
 
   s.homepage         = 'https://github.com/MJHee/FlipBounce'
@@ -32,11 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'FlipBounce/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'FlipBounce' => ['FlipBounce/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'FlipBounce' => ['FlipBounce/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Masonry', '~> 1.0.1'
 end
