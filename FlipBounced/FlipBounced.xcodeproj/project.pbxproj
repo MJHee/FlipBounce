@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F01C39D1E94CADF009CCC9B /* ProvinceViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F01C39C1E94CADF009CCC9B /* ProvinceViewCell.m */; };
-		6F01C3A01E94DEE5009CCC9B /* ProvinceViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F01C39F1E94DEE5009CCC9B /* ProvinceViewModel.m */; };
-		6F01C3A31E94EA2E009CCC9B /* FlipBounceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F01C3A21E94EA2E009CCC9B /* FlipBounceView.m */; };
+		6F13C1521EA6F7E600BC7491 /* FlipBounceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F13C1491EA6F7E600BC7491 /* FlipBounceView.m */; };
+		6F13C1531EA6F7E600BC7491 /* NSString+AttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F13C14B1EA6F7E600BC7491 /* NSString+AttributedString.m */; };
+		6F13C1541EA6F7E600BC7491 /* NSString+MJHeeTextSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F13C14D1EA6F7E600BC7491 /* NSString+MJHeeTextSize.m */; };
+		6F13C1551EA6F7E600BC7491 /* ProvinceViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F13C14F1EA6F7E600BC7491 /* ProvinceViewCell.m */; };
+		6F13C1561EA6F7E600BC7491 /* ProvinceViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F13C1511EA6F7E600BC7491 /* ProvinceViewModel.m */; };
 		6FA8D0991E8F86F60043ABAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA8D0981E8F86F60043ABAE /* main.m */; };
 		6FA8D09C1E8F86F60043ABAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA8D09B1E8F86F60043ABAE /* AppDelegate.m */; };
 		6FA8D09F1E8F86F60043ABAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA8D09E1E8F86F60043ABAE /* ViewController.m */; };
@@ -19,8 +21,6 @@
 		6FA8D0AA1E8F86F60043ABAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA8D0A81E8F86F60043ABAE /* LaunchScreen.storyboard */; };
 		6FA8D0B51E8F86F60043ABAE /* FlipBouncedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA8D0B41E8F86F60043ABAE /* FlipBouncedTests.m */; };
 		6FA8D0C01E8F86F60043ABAE /* FlipBouncedUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA8D0BF1E8F86F60043ABAE /* FlipBouncedUITests.m */; };
-		6FA8D0D21E8F88220043ABAE /* NSString+MJHeeTextSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA8D0D11E8F88220043ABAE /* NSString+MJHeeTextSize.m */; };
-		6FA8D0D51E8F88660043ABAE /* NSString+AttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA8D0D41E8F88660043ABAE /* NSString+AttributedString.m */; };
 		6FA8D0F01E8F88AD0043ABAE /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA8D0D81E8F88AD0043ABAE /* MASCompositeConstraint.m */; };
 		6FA8D0F11E8F88AD0043ABAE /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA8D0DB1E8F88AD0043ABAE /* MASConstraint.m */; };
 		6FA8D0F21E8F88AD0043ABAE /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA8D0DD1E8F88AD0043ABAE /* MASConstraintMaker.m */; };
@@ -51,12 +51,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6F01C39B1E94CADF009CCC9B /* ProvinceViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProvinceViewCell.h; sourceTree = "<group>"; };
-		6F01C39C1E94CADF009CCC9B /* ProvinceViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProvinceViewCell.m; sourceTree = "<group>"; };
-		6F01C39E1E94DEE5009CCC9B /* ProvinceViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProvinceViewModel.h; sourceTree = "<group>"; };
-		6F01C39F1E94DEE5009CCC9B /* ProvinceViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProvinceViewModel.m; sourceTree = "<group>"; };
-		6F01C3A11E94EA2E009CCC9B /* FlipBounceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipBounceView.h; sourceTree = "<group>"; };
-		6F01C3A21E94EA2E009CCC9B /* FlipBounceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipBounceView.m; sourceTree = "<group>"; };
+		6F13C1481EA6F7E600BC7491 /* FlipBounceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipBounceView.h; sourceTree = "<group>"; };
+		6F13C1491EA6F7E600BC7491 /* FlipBounceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipBounceView.m; sourceTree = "<group>"; };
+		6F13C14A1EA6F7E600BC7491 /* NSString+AttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AttributedString.h"; sourceTree = "<group>"; };
+		6F13C14B1EA6F7E600BC7491 /* NSString+AttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AttributedString.m"; sourceTree = "<group>"; };
+		6F13C14C1EA6F7E600BC7491 /* NSString+MJHeeTextSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJHeeTextSize.h"; sourceTree = "<group>"; };
+		6F13C14D1EA6F7E600BC7491 /* NSString+MJHeeTextSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJHeeTextSize.m"; sourceTree = "<group>"; };
+		6F13C14E1EA6F7E600BC7491 /* ProvinceViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProvinceViewCell.h; sourceTree = "<group>"; };
+		6F13C14F1EA6F7E600BC7491 /* ProvinceViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProvinceViewCell.m; sourceTree = "<group>"; };
+		6F13C1501EA6F7E600BC7491 /* ProvinceViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProvinceViewModel.h; sourceTree = "<group>"; };
+		6F13C1511EA6F7E600BC7491 /* ProvinceViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProvinceViewModel.m; sourceTree = "<group>"; };
+		6F13C1571EA6F89400BC7491 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		6FA8D0941E8F86F60043ABAE /* FlipBounced.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipBounced.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FA8D0981E8F86F60043ABAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6FA8D09A1E8F86F60043ABAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,10 +79,6 @@
 		6FA8D0BB1E8F86F60043ABAE /* FlipBouncedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipBouncedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FA8D0BF1E8F86F60043ABAE /* FlipBouncedUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipBouncedUITests.m; sourceTree = "<group>"; };
 		6FA8D0C11E8F86F60043ABAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6FA8D0D01E8F88220043ABAE /* NSString+MJHeeTextSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJHeeTextSize.h"; sourceTree = "<group>"; };
-		6FA8D0D11E8F88220043ABAE /* NSString+MJHeeTextSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJHeeTextSize.m"; sourceTree = "<group>"; };
-		6FA8D0D31E8F88660043ABAE /* NSString+AttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AttributedString.h"; sourceTree = "<group>"; };
-		6FA8D0D41E8F88660043ABAE /* NSString+AttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AttributedString.m"; sourceTree = "<group>"; };
 		6FA8D0D71E8F88AD0043ABAE /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		6FA8D0D81E8F88AD0043ABAE /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
 		6FA8D0D91E8F88AD0043ABAE /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -103,7 +104,6 @@
 		6FA8D0ED1E8F88AD0043ABAE /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		6FA8D0EE1E8F88AD0043ABAE /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		6FA8D0EF1E8F88AD0043ABAE /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		6FA8D0FA1E8F95CD0043ABAE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +131,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F13C1461EA6F77200BC7491 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6F13C1571EA6F89400BC7491 /* PrefixHeader.pch */,
+				6F13C1481EA6F7E600BC7491 /* FlipBounceView.h */,
+				6F13C1491EA6F7E600BC7491 /* FlipBounceView.m */,
+				6F13C14A1EA6F7E600BC7491 /* NSString+AttributedString.h */,
+				6F13C14B1EA6F7E600BC7491 /* NSString+AttributedString.m */,
+				6F13C14C1EA6F7E600BC7491 /* NSString+MJHeeTextSize.h */,
+				6F13C14D1EA6F7E600BC7491 /* NSString+MJHeeTextSize.m */,
+				6F13C14E1EA6F7E600BC7491 /* ProvinceViewCell.h */,
+				6F13C14F1EA6F7E600BC7491 /* ProvinceViewCell.m */,
+				6F13C1501EA6F7E600BC7491 /* ProvinceViewModel.h */,
+				6F13C1511EA6F7E600BC7491 /* ProvinceViewModel.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		6FA8D08B1E8F86F60043ABAE = {
 			isa = PBXGroup;
 			children = (
@@ -154,21 +172,11 @@
 		6FA8D0961E8F86F60043ABAE /* FlipBounced */ = {
 			isa = PBXGroup;
 			children = (
+				6F13C1461EA6F77200BC7491 /* Classes */,
 				6FA8D09A1E8F86F60043ABAE /* AppDelegate.h */,
 				6FA8D09B1E8F86F60043ABAE /* AppDelegate.m */,
 				6FA8D09D1E8F86F60043ABAE /* ViewController.h */,
 				6FA8D09E1E8F86F60043ABAE /* ViewController.m */,
-				6F01C3A11E94EA2E009CCC9B /* FlipBounceView.h */,
-				6F01C3A21E94EA2E009CCC9B /* FlipBounceView.m */,
-				6F01C39B1E94CADF009CCC9B /* ProvinceViewCell.h */,
-				6F01C39C1E94CADF009CCC9B /* ProvinceViewCell.m */,
-				6F01C39E1E94DEE5009CCC9B /* ProvinceViewModel.h */,
-				6F01C39F1E94DEE5009CCC9B /* ProvinceViewModel.m */,
-				6FA8D0D01E8F88220043ABAE /* NSString+MJHeeTextSize.h */,
-				6FA8D0D11E8F88220043ABAE /* NSString+MJHeeTextSize.m */,
-				6FA8D0D31E8F88660043ABAE /* NSString+AttributedString.h */,
-				6FA8D0D41E8F88660043ABAE /* NSString+AttributedString.m */,
-				6FA8D0FA1E8F95CD0043ABAE /* PrefixHeader.pch */,
 				6FA8D0D61E8F88AD0043ABAE /* Masonry */,
 				6FA8D0A01E8F86F60043ABAE /* Main.storyboard */,
 				6FA8D0A61E8F86F60043ABAE /* Assets.xcassets */,
@@ -378,19 +386,19 @@
 				6FA8D0F81E8F88AD0043ABAE /* View+MASAdditions.m in Sources */,
 				6FA8D09F1E8F86F60043ABAE /* ViewController.m in Sources */,
 				6FA8D0F11E8F88AD0043ABAE /* MASConstraint.m in Sources */,
-				6FA8D0D51E8F88660043ABAE /* NSString+AttributedString.m in Sources */,
 				6FA8D0F41E8F88AD0043ABAE /* MASViewAttribute.m in Sources */,
 				6FA8D0F71E8F88AD0043ABAE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				6F13C1531EA6F7E600BC7491 /* NSString+AttributedString.m in Sources */,
 				6FA8D09C1E8F86F60043ABAE /* AppDelegate.m in Sources */,
-				6F01C3A01E94DEE5009CCC9B /* ProvinceViewModel.m in Sources */,
 				6FA8D0F01E8F88AD0043ABAE /* MASCompositeConstraint.m in Sources */,
-				6F01C3A31E94EA2E009CCC9B /* FlipBounceView.m in Sources */,
-				6F01C39D1E94CADF009CCC9B /* ProvinceViewCell.m in Sources */,
+				6F13C1561EA6F7E600BC7491 /* ProvinceViewModel.m in Sources */,
 				6FA8D0F31E8F88AD0043ABAE /* MASLayoutConstraint.m in Sources */,
+				6F13C1551EA6F7E600BC7491 /* ProvinceViewCell.m in Sources */,
 				6FA8D0991E8F86F60043ABAE /* main.m in Sources */,
+				6F13C1541EA6F7E600BC7491 /* NSString+MJHeeTextSize.m in Sources */,
 				6FA8D0A51E8F86F60043ABAE /* FlipBounced.xcdatamodeld in Sources */,
+				6F13C1521EA6F7E600BC7491 /* FlipBounceView.m in Sources */,
 				6FA8D0F91E8F88AD0043ABAE /* ViewController+MASAdditions.m in Sources */,
-				6FA8D0D21E8F88220043ABAE /* NSString+MJHeeTextSize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
